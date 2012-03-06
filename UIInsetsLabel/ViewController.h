@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIInsetsLabel.h"
 
 @interface ViewController : UIViewController
-
+@property (nonatomic, retain) IBOutlet UIInsetsLabel *insetsLabel;
 @end

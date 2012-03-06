@@ -15,6 +15,8 @@
 		A3FB096D1505BDF700EE9194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB096C1505BDF700EE9194 /* AppDelegate.m */; };
 		A3FB09701505BDF700EE9194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB096F1505BDF700EE9194 /* ViewController.m */; };
 		A3FB09731505BDF700EE9194 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FB09711505BDF700EE9194 /* ViewController.xib */; };
+		A3FB097B1505BE0D00EE9194 /* UIInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB097A1505BE0D00EE9194 /* UIInsetsLabel.m */; };
+		A3FB097D1505BF8F00EE9194 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FB097C1505BF8F00EE9194 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,18 @@
 		A3FB095C1505BDF700EE9194 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3FB095E1505BDF700EE9194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3FB09601505BDF700EE9194 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A3FB09641505BDF700EE9194 /* UIInsetsLabel-Info.plist */ = {isa = PBXFileReference; path = "UIInsetsLabel-Info.plist"; sourceTree = "<group>"; };
+		A3FB09641505BDF700EE9194 /* UIInsetsLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIInsetsLabel-Info.plist"; sourceTree = "<group>"; };
 		A3FB09661505BDF700EE9194 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3FB09681505BDF700EE9194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3FB096A1505BDF700EE9194 /* UIInsetsLabel-Prefix.pch */ = {isa = PBXFileReference; path = "UIInsetsLabel-Prefix.pch"; sourceTree = "<group>"; };
-		A3FB096B1505BDF700EE9194 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3FB096A1505BDF700EE9194 /* UIInsetsLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIInsetsLabel-Prefix.pch"; sourceTree = "<group>"; };
+		A3FB096B1505BDF700EE9194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3FB096C1505BDF700EE9194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A3FB096E1505BDF700EE9194 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A3FB096E1505BDF700EE9194 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A3FB096F1505BDF700EE9194 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A3FB09721505BDF700EE9194 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A3FB09791505BE0700EE9194 /* UIInsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInsetsLabel.h; sourceTree = "<group>"; };
+		A3FB097A1505BE0D00EE9194 /* UIInsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInsetsLabel.m; sourceTree = "<group>"; };
+		A3FB097C1505BF8F00EE9194 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FB097D1505BF8F00EE9194 /* QuartzCore.framework in Frameworks */,
 				A3FB095D1505BDF700EE9194 /* UIKit.framework in Frameworks */,
 				A3FB095F1505BDF700EE9194 /* Foundation.framework in Frameworks */,
 				A3FB09611505BDF700EE9194 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +56,7 @@
 		A3FB094D1505BDF700EE9194 = {
 			isa = PBXGroup;
 			children = (
+				A3FB097C1505BF8F00EE9194 /* QuartzCore.framework */,
 				A3FB09621505BDF700EE9194 /* UIInsetsLabel */,
 				A3FB095B1505BDF700EE9194 /* Frameworks */,
 				A3FB09591505BDF700EE9194 /* Products */,
@@ -77,6 +84,8 @@
 		A3FB09621505BDF700EE9194 /* UIInsetsLabel */ = {
 			isa = PBXGroup;
 			children = (
+				A3FB09791505BE0700EE9194 /* UIInsetsLabel.h */,
+				A3FB097A1505BE0D00EE9194 /* UIInsetsLabel.m */,
 				A3FB096B1505BDF700EE9194 /* AppDelegate.h */,
 				A3FB096C1505BDF700EE9194 /* AppDelegate.m */,
 				A3FB096E1505BDF700EE9194 /* ViewController.h */,
@@ -164,6 +173,7 @@
 				A3FB09691505BDF700EE9194 /* main.m in Sources */,
 				A3FB096D1505BDF700EE9194 /* AppDelegate.m in Sources */,
 				A3FB09701505BDF700EE9194 /* ViewController.m in Sources */,
+				A3FB097B1505BE0D00EE9194 /* UIInsetsLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation ViewController
+@synthesize insetsLabel;
 
 - (void)didReceiveMemoryWarning
 {
@@ -21,7 +23,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    insetsLabel.layer.cornerRadius = 6;
+    insetsLabel.textColor = [UIColor whiteColor];
+    insetsLabel.backgroundColor = [UIColor redColor];
+    insetsLabel.font = [UIFont boldSystemFontOfSize:18];
+    insetsLabel.insets = UIEdgeInsetsMake(8, 8, 8, 8);
+    
+    [insetsLabel sizeToFit];//调用sizeToFit调整大小
 }
 
 - (void)viewDidUnload
